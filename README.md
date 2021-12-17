@@ -1,24 +1,24 @@
-# FunRetro.io export
+# EasyRetro (former FunRetro) export
 
 [![License][license-badge]][license-url]
 
-> CLI tool to easily export [FunRetro.io](https://funretro.io/) retrospective boards using Playwright
+> CLI tool to easily export [EasyRetro.io](https://funretro.io/) retrospective boards using Playwright
 
 ## Installing / Getting started
 
 It's required to have [npm](https://www.npmjs.com/get-npm) installed locally to follow the instructions.
 
 ```shell
-git clone https://github.com/julykaz/funretro-export.git
+git clone https://github.com/fToledo29/funretro-export.git
 cd funretro-export
 npm install
-npm start -- "http://funretro.io/board..." "../exported-file.txt"
+npm start -- "https://easyretro.io/publicboar..." "csv" ##  Exports data as CSV File
+npm start -- "https://easyretro.io/publicboar..." ##  Exports data as TXT File
 ```
 
 ## TODO
 
-- Export card comments
-- More export options (PDF, CSV)
+- Export options (TXT, CSV)
 
 ## Licensing
 
